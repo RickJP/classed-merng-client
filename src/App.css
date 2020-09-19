@@ -1,0 +1,21 @@
+.form-container {
+  width: 400px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  display: none;
+}
+
+.div.ui.red.button {
+  padding: 0;
+}
+
+.ui.teal.button:focus,
+.ui.teal.buttons .button:focus {
+  background-color: #00b5ad;
+}
